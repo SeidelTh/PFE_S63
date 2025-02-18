@@ -1,7 +1,0 @@
-config SND_SOC_MCP3008
-    tristate "MCP3008 ASoC driver"
-    depends on SND_SOC && SPI_MASTER
-    help
-      Ce driver permet d'utiliser le MCP3008 comme source d'entrée audio via ASoC.
-      Il crée un codec virtuel et une carte audio pour capturer l'audio (8 bits, 8 kHz).
-
