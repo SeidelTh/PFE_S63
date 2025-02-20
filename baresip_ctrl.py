@@ -91,8 +91,7 @@ def send_command(s, cmd_str,params=""):
     # Construire l'objet JSON attendu
     data_obj = {
         "command": cmd_str,
-        "params": params  # éventuel paramètre, ex: "sip:[email protected]"
-        # "token": "some_id" # optionnel si tu veux un token
+        "params": params  # éventuel paramètre
     }
 
     # Encoder en JSON
